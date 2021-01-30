@@ -1,0 +1,8 @@
+version: '2'
+services:
+  my_first_nodejs-app:
+    build: ../../..
+    container_name: my_first_nodejs-app
+    environment:
+    ports:
+      - 8081:8081
